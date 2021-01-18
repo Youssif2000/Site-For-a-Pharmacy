@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:f="http://xmlns.jcp.org/jsf/core"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets">
+
+
+
+
+
+
+    <ui:composition>
+        <head>
+            <style>
+
+
+
+                .navbar{
+                    background-color: #0B0B61;
+                    text-align: center;
+                    box-sizing: border-box;
+                    margin: 0;
+                    padding: 0;
+                    font-family: initial;
+                    font-size:  16px;
+                    direction: rtl;
+
+                }
+                .navbar-list{
+
+                    list-style: none;
+
+                    box-sizing: border-box;
+                    margin: 0;
+                    padding: 0;
+                    font-family: initial;
+                    font-size:  16px;
+                }
+                .navbar-item{
+
+                    display: inline-block;
+                    height: 80px;
+                    width: 8rem;
+                    line-height: 80px;
+                    text-align: center;
+                    transition: 0.3s;
+                }
+                .navbar-link{
+
+                    text-decoration: none;
+                    text-align: center;
+                    color: white;
+                    display: block;
+                    font-family: initial;
+                }
+                .navbar-d{
+                    display: inline-block;
+                    transition: 0.3s;
+                    color: #A4A4A4;
+                    display: block;
+                }
+                #q{
+                    display: inline-block;
+
+
+                }
+                li{
+                    text-align: center;
+                }
+
+
+                .navbar-s{
+                    display: block;
+                    margin-left: 10px;
+
+                }
+                .navbar-item:hover {
+
+                    background-color: #27496d;
+                    transition: 0.3s;
+                }
+
+
+                @media(max-width: 650px){
+                    .navbar-s{
+                        text-align: center;
+                    }
+                    #q{
+                        margin-left: 10px
+                    }
+                    #x{
+                        margin-left: 10px
+                    }
+
+                }
+            </style>
+        </head>
+
+        <div class="comtainer" >
+
+            <nav class="navbar" >
+                <ul class="navbar-list">
+
+                    <details class="navbar-d" >
+
+                        <summary class="navbar-s">
+
+
+                            <li  id="q">
+                                <a class="navbar-link" href="home.xhtml"><img src="menue.jpg" width="50px" height="50px" align="center"/></a>  </li>
+
+
+                            <li class="navbar-item" id="x">
+                                <a class="navbar-link" href="home.xhtml">الرئيسية</a> </li> 
+
+                            <li class="navbar-item"  >
+                                <a class="navbar-link" href="About Us.xhtml">نبذه عنا</a> </li> 
+
+
+                            <li class="navbar-item">
+                                <a class="navbar-link" href="Services.xhtml">الخدمات</a> </li> 
+
+                            <li class="navbar-item">
+                                <a class="navbar-link" href="ContactUs.xhtml">اتصل بنا</a></li> 
+                        </summary>
+                        <table>
+                            <tr> <th></th>  <th></th> <th></th><th></th> </tr>
+                            <tr> <td></td> <td><a href="About Us.xhtml"  id="s">الرؤية</a></td> <td><a href="Services.xhtml"  id="s">خدمة التوصيل للمنزل</a></td><td><a href="ContactUs.xhtml"  id="s">معلومات الاتصال</a></td></tr>
+                            <tr> <td></td> <td><a href="About Us.xhtml"  id="s">الاهداف</a></td> <td><a href="Services.xhtml"  id="s">اسأل صيدلى</a></td><td></td>  </tr>
+                        </table>
+
+
+                    </details>
+
+
+                </ul>
+
+            </nav>
+
+
+        </div>
+
+
+
+
+
+
+
+    </ui:composition>
+
+
+
+
+</html>
